@@ -7,6 +7,7 @@ module.exports.extend = function(dest, src) {
   for (var prop in src) {
     dest[prop] = src[prop];
   }
+  return dest;
 };
 
 module.exports.hasElems = function(obj, arr) {
